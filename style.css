@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 84.2%;
+    height: 50px;
+    gap: 30px;
+    position: fixed;
+    justify-content: center;
+    background-color: rgb(250, 100, 0);
+    padding: 20px;
+}
+
+body {
+    margin: 0px 10% 0% 8%;
+    background-color: black;
+}
+.qqq{
+    display: flex;
+    gap: 100px;
+}
+main {
+    padding-top: 50px;
+}
+
+.pone {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: white;
+}
+.qq {
+    font-size: 20px;
+    font-family: sans-serif;
+    gap: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+a{
+    color: white;
+}
+.htwo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.htw {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: orange;
+    font-size: 50px;   
+}
+.htwu {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 50px;   
+}
+.ht{
+    display: flex;
+    justify-content: center;
+}
+.htw {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    color: white;
+    font-size: 50px;
+}
+.pthree{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.pthr{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.bl{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: blue;
+}
+.bor{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: orange;
+}
+.pthred{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: red;
+    
+}
+.hthree{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(250, 100, 0);
+}
+.hfour{
+    color: orange;
+    font-family: sans-serif;
+}
+.hf{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    color: white;
+}
+.end{
+    padding-bottom: 150px;
+}
+@media (max-width: 768px){
+    body{
+        margin: 0px 0px 0px 0px;
+    }
+    .qqq {
+    font-size: 20px;
+    font-family: sans-serif;
+    gap: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+    header {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    width: 100%;
+    height: 50px;
+    gap: 30px;
+    position: fixed;
+    justify-content: center;
+    background-color: rgb(250, 100, 0);
+    padding: 20px;
+}
+.hthree{
+    font-size: 20px;
+}
+.htwu{
+    font-size: 30px;
+}
+.qq{
+    font-size: 15px;
+}
+
+}
+     
